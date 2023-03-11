@@ -20,7 +20,7 @@ enum Owner : byte {
 	 * companies, above, they are special, computer controlled 'companies' */
 	OWNER_BEGIN     = 0x00, ///< First owner
 	COMPANY_FIRST   = 0x00, ///< First company, same as owner
-	MAX_COMPANIES   = 0x0F, ///< Maximum number of companies
+	MAX_COMPANIES   = 0x40, ///< Maximum number of companies
 	OWNER_TOWN      = 0x0F, ///< A town owns the tile, or a town is expanding
 	OWNER_NONE      = 0x10, ///< The tile has no ownership
 	OWNER_WATER     = 0x11, ///< The tile/execution is done by "water"
